@@ -5,61 +5,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
   <title>Frontend Mentor | Order summary card</title>
-
-  <!-- style sheet 👍 -->
+  <!--stylesheet 👍 -->
   <link rel="stylesheet" href="style.css">
-
-
+  <link rel="stylesheet" href="normalize.css">
 </head>
 
 <body>
-  <!-- start  background pattern -->
   <picture>
-    <source media="(min-width : 601px)" srcset="images/pattern-background-desktop.svg">
+    <source media="(min-width: 616px)" srcset="images/pattern-background-desktop.svg">
     <img src="images/pattern-background-mobile.svg" alt="">
   </picture>
-  <!-- end  background pattern -->
-  <!-- start the design -->
   <main>
-    <!-- photo section  -->
-    <img class="main-photo" src="images/illustration-hero.svg" alt="photo of illustration-hero">
-    <!-- content section -->
     <div class="container">
-      <h1> Order Summary </h1>
-      <p>
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-      <div class="features">
-        <div>
+      <img class="main-image" src="images/illustration-hero.svg" alt="photo of illustration-hero">
+      <div class="content">
+        <h1> Order Summary </h1>
+        <p> You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!
+        </p>
+        <div class="music-bar">
           <img src="images/icon-music.svg" alt="">
-        </div>
-        <div>
-          <span> Annual Plan</span>
-          <span> $59.99/year</span>
-        </div>
-        <div>
+          <div>
+            Annual Plan
+            <span>
+              $59.99/year
+            </span>
+          </div>
           <a href="">Change</a>
         </div>
-      </div>
-      <div class="buttons">
-        <button class="order"> Proceed to Payment</button>
-        <button class="dont-order"> Cancel Order</button>
+        <button class="buy">Proceed to Payment</button>
+        <button class="cancel">Cancel Order</button>
       </div>
     </div>
   </main>
-  <!-- end the design -->
 
-  <!-- start the attribution -->
-  <footer class="attribution">
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">saad ibrahim</a>.
-  </footer>
-  <!-- end the attribution -->
+    Coded by <a href="#https://www.frontendmentor.io/profile/saadibrahim139">Saadibrahim</a>.
+  </div>
 </body>
 
 </html>
