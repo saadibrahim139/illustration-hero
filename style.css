@@ -69,6 +69,7 @@ select {
 /* end reset */
 
 body {
+    height: 100vh;
     background-color: var(--Pale-blue);
     display: flex;
     align-items: center;
